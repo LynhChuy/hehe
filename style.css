@@ -1,0 +1,46 @@
+body {
+  background-color: #fad0ea;
+  padding: 45px 0;
+  color: white;
+}
+
+.avatar {
+  border-radius: 100px;
+}
+
+h3 {
+  font-family: "Lobster", cursive;
+  margin: 10px 0 8px 0;
+}
+
+p {
+  font-family: system-ui;
+  width: 450px;
+
+  @media only screen and (max-width: 600px) {
+    p {
+      width: 100%;
+    }
+  }
+}
+button {
+  margin-bottom: 20px;
+  background-color: rgb(205, 90, 151);
+  border: 0px;
+  width: 300px;
+  padding: 15px 0 15px 0;
+  border-radius: 100px;
+  font-family: "roboto condensed", cursive;
+  font-size: 15px;
+  transition-duration: 0.3s;
+  transition-property: color, background-color;
+  box-shadow: 16px 22px 45px -6px rgba(0, 0, 0, 0.67);
+  -webkit-box-shadow: 16px 22px 45px -6px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 16px 22px 45px -6px rgba(0, 0, 0, 0.67);
+  cursor: pointer;
+}
+
+.button:hover {
+  color: white;
+  background-color: rgb(222, 155, 133);
+}
